@@ -1,0 +1,80 @@
+body {
+  font-family: 'Roboto',sans-serif;
+  background-color: rgb(236, 202, 247);
+  color: rgb(154, 31, 191);
+}
+
+header ,footer{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 75px;
+  font-weight: 900;
+  color: rgb(154, 31, 191);
+  margin: 25px;
+}
+
+header img {
+  width: 400px;
+}
+
+main {
+  background-color: rgb(154, 31, 191);
+  color: white;
+  width: 800px;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 32px auto;
+  margin-bottom: 20px;
+  font-size: larger;
+}
+
+a.mdn-link {
+  background-color: rgb(223, 250, 20);
+  color: rgb(90, 9, 114);
+  border-radius: 3px;
+  padding: 1px 3px 1px 3px;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 30px;
+  margin: 25px auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+  padding-left: 10px;
+  border-left: 5px solid transparent;
+}
+
+.sub-title {
+  color: rgb(249, 227, 88);
+  margin: 20px auto;
+  border-left: 5px solid;
+}
+
+a {
+  background-color: rgb(235, 177, 19);
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(220, 177, 22);
+}
+
+footer p{
+  color: gray;
+}
